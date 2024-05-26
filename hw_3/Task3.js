@@ -3,6 +3,9 @@ Task3**. Напишите программу, которая принимает 
 n + nn + nnn, где n не перемножаются, а конкатенируются
 */
 
-let n = 1;
-//n = [1..9]
-console.log (n +  Number(''+ n+ n) + Number('' + n + n + n));
+let n = 10;
+if (n < 1 || n > 9) {
+    console.log("invalid number");
+} else {
+    console.log (n +  Number(''+ n+ n) + Number('' + n + n + n));
+}

@@ -72,7 +72,7 @@ console.log('item_6 == ' + typeof item_6 + ', item_6_type == ' + typeof item_6_t
 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
 */
 
-const item_7 = 'item_6';
+const item_7 = String(item_6);
 const item_7_type = typeof item_7;
 console.log('item_7 == ' + typeof item_7 + ', item_7_type == ' + typeof item_7_type);
 

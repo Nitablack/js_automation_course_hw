@@ -3,7 +3,7 @@ Task3**. Напишите программу, которая принимает 
 n + nn + nnn, где n не перемножаются, а конкатенируются
 */
 
-let n = 10;
+const n = 10;
 if (n < 1 || n > 9) {
     console.log("invalid number");
 } else {

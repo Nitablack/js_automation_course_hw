@@ -4,7 +4,7 @@ n + nn + nnn, где n не перемножаются, а конкатенир�
 */
 
 const n = 10;
-if (n < 1 || n > 9) {
+if (typeof n !== 'number' || !Number.isInteger(n) || n < 1 || n > 9) {
     console.log("invalid number");
 } else {
     console.log (n +  Number(''+ n+ n) + Number('' + n + n + n));

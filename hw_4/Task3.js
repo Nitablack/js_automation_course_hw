@@ -5,7 +5,8 @@ const minAge = 18;
 const maxAge = 60;
 const age = prompt("What's your age?");
 
-if (isNaN(Number(age))){
+const age = +prompt("What's your age?");
+if (isNaN(age)){
     alert("Wrong age!");
 }
 else {

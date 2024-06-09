@@ -32,7 +32,7 @@ const minAge = 18;
 const maxAge = 60;
 const age = "18";
 
-if (typeof +age !== "number"){
+if (typeof age !== "number"){
     throw new Error("Wrong age!");
 }
 else {
